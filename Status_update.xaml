@@ -18,7 +18,7 @@
     <x:Property Name="arg_onedrive_username" Type="InArgument(x:String)" />
     <x:Property Name="arg_onedrive_password" Type="InArgument(ss:SecureString)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1568,7223</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1568,11245</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -140,28 +140,28 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1578,7158" sap2010:WorkflowViewState.IdRef="Sequence_130">
+  <Sequence sap:VirtualizedContainerService.HintSize="1578,11180" sap2010:WorkflowViewState.IdRef="Sequence_130">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1516,7047" sap2010:WorkflowViewState.IdRef="TryCatch_5">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1516,11069" sap2010:WorkflowViewState.IdRef="TryCatch_5">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="1478,6814" sap2010:WorkflowViewState.IdRef="Sequence_125">
+        <Sequence sap:VirtualizedContainerService.HintSize="1478,10840" sap2010:WorkflowViewState.IdRef="Sequence_125">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence sap:VirtualizedContainerService.HintSize="1416,6703" sap2010:WorkflowViewState.IdRef="Sequence_126">
+          <Sequence sap:VirtualizedContainerService.HintSize="1416,10729" sap2010:WorkflowViewState.IdRef="Sequence_126">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign sap:VirtualizedContainerService.HintSize="1354,83" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign sap:VirtualizedContainerService.HintSize="1354,82" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="s:DateTime">[sTime]</OutArgument>
               </Assign.To>
@@ -169,7 +169,7 @@
                 <InArgument x:TypeArguments="s:DateTime">[DateTime.Now]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1354,53" sap2010:WorkflowViewState.IdRef="CommentOut_18">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1354,52" sap2010:WorkflowViewState.IdRef="CommentOut_18">
               <ui:CommentOut.Body>
                 <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,194" sap2010:WorkflowViewState.IdRef="Sequence_127">
                   <sap:WorkflowViewStateService.ViewState>
@@ -194,19 +194,19 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Case Status Online - Case Status Search" sap:VirtualizedContainerService.HintSize="1354,6376" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Case Status Online - Case Status Search" sap:VirtualizedContainerService.HintSize="1354,10404" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1320,6158" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1320,10187" sap2010:WorkflowViewState.IdRef="Sequence_11">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NCheckState DisplayName="Check App State 'Already have'" sap:VirtualizedContainerService.HintSize="1258,291" sap2010:WorkflowViewState.IdRef="NCheckState_19" Timeout="30" Version="V3">
+                    <uix:NCheckState DisplayName="Check App State 'Already have'" sap:VirtualizedContainerService.HintSize="1258,247" sap2010:WorkflowViewState.IdRef="NCheckState_19" Timeout="30" Version="V3">
                       <uix:NCheckState.Target>
                         <uix:TargetAnchorable BrowserURL="https://egov.uscis.gov/" DesignTimeRectangle="355, 658, 826, 17" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FriendlyName="'Already have'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' parentid='bodyContent2' tag='P' innertext='Already have an Account? Login' visibleinnertext='Already have an Account? Login' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='bodyContent2' tag='P' innertext='Already have an Account? Login' visibleinnertext='Already have an Account? Login' class='' aaname='Already have an Account? ' check:text='Already have an Account? Login' /&gt;" Guid="f4c59516-2e9f-400e-8892-0c535f49c03d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAz4AAAAVCAYAAACHSDuwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVNSURBVHhe7dw/jtRIFMfxuUcfihsQ9E2IuIBzJJKRiByRTUBE1BES2hPsaBAJ2mSz2vrreu9VudoN9DDt/X4k72KXXa4qD9L7jZu+cwAAAACwcwQfAAAAALtH8AEAAACwewQfAAAAALtH8AEAAACwe53g8+Tm48EdDpM75SPVyU2Hg5vahqt5mo/ucJz9qC53mvw8nnOwf0Bcn2d+Jr8u/Bwd3Swf6tPsjn4eYS5xG07oi3v7+oO7/5Z3f7dvn9yra/YPAACAZ9cGn9Pkg8bkJh9+jqoyDQg+L0sKENP082v0Z5jgk0NPfVQ5fK8+uysHHwAAAOxOE3xCWAiBpx84dPAJ505z+U19KWTLG6O82T7sb/btb/7zPUqbLOrbIJPu1Qa0JJ3vQ5y4n66lzVj9tvQVAqB96xXHLo7Fc9b6bsXxiPPlXOJ6T7Maz9q8FjGk+rWJ47LrmJQ3QmnT54zafOdq3dRYOvdTzyav0yz7X34OdL/hku7PWm/9F1uCTzjnvbvL26uHx3w8+/pxabt788ndv/P/f/cltak3PvleD+L81x/d53giAAAAboUJPuI38d1iug0+ujhtg0hbEMuAkIOHKYqX6/P5S7sthnOBXe+vpfHVOaRCv5yf710Hk9vL+XquQWyvk++Mxa5XFccii/scmurSpJCw3C+2r/cXhD7TWq0EQDtGuT9q8/9Vz8Hud+bae851bXv9jecWx2PD0OJc8Emhp4Ydsx+DzXv39mvaXULQavBJ4Shd/eju34hzAQAAcBNU8LG/eVfFbKTDQNPeLVbHRa66py3GPT0mfX8VRDqa8Z0JJ7ZdX5/CRdqVf67OjUfrzEWtnW5v2Lk0a7cShqJRW28snux/U/AZtMe5DZ5DvNdg7meCz+PDBxFUshhu0pua2K6CiwkzneCzhCSv2z8AAABeNBF8OsV8U0zrYtwGi1gw+/Z2s0Vu6mdpz0X2asEtjoV7loI9/Hm9OG7H1yvIg3heb6xNsV/WwoxfbqMBeXaNyumXBp94vmq054+uH/fdrFsg53/N4HM29ATj4PNZfmytiGEmBZ/Qbj/6pq4h+AAAAOxODT654Oxt+iNKtSi1BXI3uCjpetmnvKZ7vQk+dT/0JUNZqyngTUEe28N4Sv9NwV7nq4OGXoct4vVx7jo8lT7auY/ukdrK81Hb0sf569fG36xb8CzBZ/wmqiL4AAAA4DJL8OkWu148vlJMN9fINyQ9NsR4quDvXN8PBL5onv25nfFKzfhUQd4pvlcL9vSlA7WrrQV60XmbZtbyouCzts7xeBn/aIzj8bdj8eQ9rxZ8BnNWxsGHj7oBAADAysFnUHA2YaGe1wSLXFCrY7JgtgV73PfnL0W2KcjjvWV7Eu+7oUBuxjeYS9lvPpZXxtg9Lo9dEjTyOon7XxJ82nUvzH3sesv5j9ryvet4z+yX51QnI/pKtgWfrcbBp4SV3/nlBgQfAACA2xaDTyy6ZRGs5CI9Fq26GO8X4OmcFBbCpvstoSVuodBvAoS8Pn8l8ujtw8A4+Hixn3KvcNwU9FEejx2Dl9atXG+vM0o4yNt0kuua+9oSfHI/zfHMPks7Rr0c623LvPPWzE2unR/3KfRVOjgbfPJ+0+/KnBspjNSvly6bDEP6HPvRtt7XWetgRPABAADYE/HlBjckFN3nq2Ngs96/+wEAAMB+3GTwCW8LyD3/T3/9/aO+qfmJLWje2Kg3PP4vRee6te37P/+miwAAAPCi3VbwKR8XI/Xgl+QvM1gCzOjfCwEAAGAPbvOjbgAAAABwAYIPAAAAgN0j+AAAAADYOef+AwmeBqViOYkAAAAAAElFTkSuQmCC" InformativeScreenshot="3f08d1cb20f708ffeebde2b4364574d1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Case Status Online - Case Status Search' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -223,18 +223,18 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NCheckState>
-                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1258,53" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1258,1099" sap2010:WorkflowViewState.IdRef="TryCatch_6">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <TryCatch.Try>
-                        <Sequence sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_110">
+                        <Sequence sap:VirtualizedContainerService.HintSize="450,752" sap2010:WorkflowViewState.IdRef="Sequence_110">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
@@ -267,10 +267,18 @@
                               </uix:TargetAnchorable>
                             </uix:NClick.Target>
                           </uix:NClick>
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="1" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" Shortcuts="[d(hk)][k(home)][u(hk)]" Version="V3">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NKeyboardShortcuts>
                         </Sequence>
                       </TryCatch.Try>
                       <TryCatch.Catches>
-                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="456,150" sap2010:WorkflowViewState.IdRef="Catch`1_7">
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="518,936" sap2010:WorkflowViewState.IdRef="Catch`1_7">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -281,14 +289,14 @@
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                             </ActivityAction.Argument>
-                            <Sequence sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_112">
+                            <Sequence sap:VirtualizedContainerService.HintSize="512,867" sap2010:WorkflowViewState.IdRef="Sequence_112">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence sap:VirtualizedContainerService.HintSize="450,660" sap2010:WorkflowViewState.IdRef="Sequence_111">
+                              <Sequence sap:VirtualizedContainerService.HintSize="450,752" sap2010:WorkflowViewState.IdRef="Sequence_111">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -324,14 +332,22 @@
                                     </uix:TargetAnchorable>
                                   </uix:NClick.Target>
                                 </uix:NClick>
+                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="1" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(home)][u(hk)]" Version="V3">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </uix:NKeyboardShortcuts>
                               </Sequence>
                             </Sequence>
                           </ActivityAction>
                         </Catch>
                       </TryCatch.Catches>
                     </TryCatch>
-                    <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="1258,91" sap2010:WorkflowViewState.IdRef="Delay_6" />
-                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1258,53" sap2010:WorkflowViewState.IdRef="CommentOut_14">
+                    <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="1258,90" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1258,52" sap2010:WorkflowViewState.IdRef="CommentOut_14">
                       <ui:CommentOut.Body>
                         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="Sequence_98">
                           <sap:WorkflowViewStateService.ViewState>
@@ -365,7 +381,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:CommentOut>
-                    <uix:NCheckState DisplayName="Check App State 'The receipt'" Exists="[ui_check]" sap:VirtualizedContainerService.HintSize="1258,53" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Timeout="3" Version="V3">
+                    <uix:NCheckState DisplayName="Check App State 'The receipt'" Exists="[ui_check]" sap:VirtualizedContainerService.HintSize="1258,287" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Timeout="3" Version="V3">
                       <uix:NCheckState.Target>
                         <uix:TargetAnchorable BrowserURL="https://egov.uscis.gov/" DesignTimeRectangle="366, 416, 292, 33" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FriendlyName="'The receipt'" FullSelectorArgument="&lt;webctrl class='errorMessage' parentid='bodyContent2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='errorMessage' parentid='bodyContent2' tag='DIV' type='' aaname='The receipt number entered is invalid, please try again.' check:innerText='The receipt number entered is invalid, please try again.' /&gt;" Guid="1e45a6d8-a859-4bd4-8ea3-25f2b42acdf3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASgAAAAlCAYAAADx7nRzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAauSURBVHhe7ZtNcuM4DIV7mwP6GnMR38T7XqVmmYU3OUHvs+k7qEWLAEH8CJLtJIz9virUtESRAkDgRbI9vyYAABgUCBQAYFggUACAYYFAAQCGBQIFABiWXqDOx+n3y0tor6eP6c9x+ffbuc75qXycptcS1+E0/a2nNlFydBww+Gvj+TY+pvfDYXr/qIdfxnl6S/J0a41/fY/UmF6O0x/32KH2eunpkXlegboGyg8E6kaKOJU6GlOgfh4bBEnzIwVKEjRjEygqMi8xlLBqqw3dkvtW1+brqemq2WQm91mbrxtaHL+TH3KOEW+/GDg/J3lvea1TTLpYXF9qM8uYZLyZ/5W/pwOPaYGgsdfjsd4jFhCKc7E+F+s5kHWzmIlbny9wfHOd1Pk0vuZLQY6/nWv+VwSK/ef0qjpLhFXPX88HjfdrGh9W60/XlFNjXQzz+UcXKGN8nd7MxeJE2Osvm6KKtRu74N8nEjcyni8auhMoxy5zdgqUMZMfMT8SKG3zK5E+b+JxjK7pxYms+WHGgyZ2YxTXrucgEKit+8W2NHTmix9zf42G1lzubf1dzN//Qj8/y8eMEQtVI9HehjWlj6MYHlmg6DwljzbcJJuSE21oExouxhkqrHauXlfvw4UXbFI23/jNRdD+kpl7BDmRmPzQHG4IXTwzOmfGl5YjuobuE8/R/jv7oO7L17OvHiqPMzrXeQ7IF+trul9iTu5Lyxuva3yxkP/LnKx+Lf38HTVBxzQe1ZmuXY6TfFTHtJ6IwdTPoNzwildPqORykRuThSXRyV3gTTW2XGf96Mnmm02m4y7enYUzk+XHjbeua8SG58QNbeZI37p16L6O1TlmTQ9a0zGal+fAxrN7vwqZL94c44tF+29qemVuQc/P80HXLPmQ/+5Re8jz6TzVVH/s7quuuUH5QoGScyQ6uQt0H2tyE6M18/mmeLcU8ycJVCg2PGeHQEn/u3N0X8fqHLeQNbSmZzUveQ72CFSwX4XMF2+O8cUS1VbvY/Ndo+fn+ZhhwTjZMR2HiUvXVH8MgSrXUbJ2B66Tu0BJ1UVC0HjbpL7os/nhpjsiwDm4q0DRfchvkTNTgDsEKvSf1ujzLDFruuh4LHkO4ng279eFzBfKdVuXc7LL/54sT3p+no9C81Wvbe5Hdcjzaa4vUHw9jzs1Nyj3FyiVaLa0iFTjcMMpY3+C+9B4Nl8XfHT9bBwrb3Sx1lyS7c1pjYvFNOMegbJGvnBzJuNZ0VKMvTXfdueg7Mne/apkvkQx63Ukvf9BnQX7X9Dx5/lYaL72a+cxkI+BQF1Vc2PwCQJV0JuqxKdDJ1Ogi9YkT91Hj6/N1xsijuOv6eVG+wW6KT+dX3PcNdd3EahV/22xy3Gz5goUJ1mLd2MOpNhHf1S8nMlzlTVfCnLcfYVShP4L0/eQ6Pmb8lEIY+wFpqyzrEn1QP5FAlWQMczzTlnNjUEsUM/GoBsEwJdR/mioB5LvBgJFQKDAM3Op/7U3ne8BAkVAoAAYDggUAGBYIFAAgGGBQAEAhmW3QNmvTMejfF2+5avy0djzNT8Az8DDCRSaHIDHoROo1tz1x2wX63+Q6AkUnVtMf1WZ/chNj9sfQK6v3yD/2eo3cuzzkX4c+N/0/+W/3g/Z9q/P0DeBxY5nvr7Fa3/RK4VUi+uW/QDgkXEFylprWi1QvXhU48aNfmJP62Xj2fo9kYCYNWbx0HFEv5xn5C+fhTWBsUL8eugFyo1FCE4kUMaC+AF4NHyBcgRGN9lyXJtSNAytwY3fQetRU9Jx9NSyd33b5AUWBik+6n8vMYKVoQTN5q4JVrSmvqf23azJT2jxUx4Aj4QrUF1DrTWyfKVRJgWiwCJxMfvUwCbEaM/6hG7ygi8+UvwyoRRon6pAefdw8zmjY6Zx7buNZYefADwAwWdQovmvFKilcaMnJvs5iitg6foWLwZfoOj8fK9zvU+w5gX1xKSPtwiUvkYfQ6AA6Ln7K14HCQyP02uPFSiib8pkfQfb1L54XCCRqWbGBZGYkEDZ3OlXPDomcbG51b7bWCBQ4Ln4nA/J0ycgEqjWxP54sr5DH8PidyhQ3f3Xm973YzZ+6rKx9B+SR7HeJlBxbAD8fIJXvFt+ZtCPdYJRmlm9MnqNq5ttbX2LFZ21Jua1WWgi5LolJ87TjBDkEh/FzveVT2zlSYuuV09hECgAFvLPoB6cuzU4iw/EA4B78eQCRU9F4inoWsLX2TusDcCT8rQCRbEWu9sTjvrQfe2zMgBATidQAAAwEhAoAMCwQKAAAIMyTf8Al2gchmo5FskAAAAASUVORK5CYII=" InformativeScreenshot="65201a54b227c9bbe0a25397cf930063.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Case Status Online - Case Status Search' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -377,12 +393,12 @@
                       </uix:NCheckState.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NCheckState>
-                    <If Condition="[ui_check = True]" sap:VirtualizedContainerService.HintSize="1258,5209" sap2010:WorkflowViewState.IdRef="If_2">
+                    <If Condition="[ui_check = True]" sap:VirtualizedContainerService.HintSize="1258,8004" sap2010:WorkflowViewState.IdRef="If_2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -390,13 +406,13 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence sap:VirtualizedContainerService.HintSize="526,926" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                        <Sequence sap:VirtualizedContainerService.HintSize="526,919" sap2010:WorkflowViewState.IdRef="Sequence_17">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage sap:VirtualizedContainerService.HintSize="484,53" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Invalid Transaction&quot;]">
+                          <ui:LogMessage sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Invalid Transaction&quot;]">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -404,16 +420,16 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:LogMessage>
-                          <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="484,91" sap2010:WorkflowViewState.IdRef="Delay_7" />
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(esc)][u(hk)]" Version="V3" />
-                          <Delay Duration="[TimeSpan.FromMilliseconds(300)]" sap:VirtualizedContainerService.HintSize="484,91" sap2010:WorkflowViewState.IdRef="Delay_8" />
-                          <uma:Office365ApplicationScope ApplicationId="{x:Null}" ApplicationSecret="{x:Null}" CertificateAsBase64="{x:Null}" CertificatePassword="{x:Null}" ContinueOnError="{x:Null}" OAuth2Username="{x:Null}" Password="{x:Null}" SecureApplicationSecret="{x:Null}" Tenant="{x:Null}" AuthenticationType="InteractiveToken" DisplayName="Microsoft Office 365 Scope - Online File Check" Environment="Global" sap:VirtualizedContainerService.HintSize="484,170" sap2010:WorkflowViewState.IdRef="Office365ApplicationScope_3" OAuthApplication="UiPath" SecurePassword="[arg_onedrive_password]" Services="Files, Mail" Timeout="60000" Username="[arg_onedrive_username]">
+                          <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="484,90" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="484,179" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(esc)][u(hk)]" Version="V3" />
+                          <Delay Duration="[TimeSpan.FromMilliseconds(300)]" sap:VirtualizedContainerService.HintSize="484,90" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                          <uma:Office365ApplicationScope ApplicationId="{x:Null}" ApplicationSecret="{x:Null}" CertificateAsBase64="{x:Null}" CertificatePassword="{x:Null}" ContinueOnError="{x:Null}" OAuth2Username="{x:Null}" Password="{x:Null}" SecureApplicationSecret="{x:Null}" Tenant="{x:Null}" AuthenticationType="InteractiveToken" DisplayName="Microsoft Office 365 Scope - Online File Check" Environment="Global" sap:VirtualizedContainerService.HintSize="484,168" sap2010:WorkflowViewState.IdRef="Office365ApplicationScope_3" OAuthApplication="UiPath" SecurePassword="[arg_onedrive_password]" Services="Files, Mail" Timeout="60000" Username="[arg_onedrive_username]">
                             <uma:Office365ApplicationScope.Body>
                               <ActivityAction x:TypeArguments="mg:GraphServiceClient">
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="mg:GraphServiceClient" Name="ParentScope" />
                                 </ActivityAction.Argument>
-                                <Sequence sap:VirtualizedContainerService.HintSize="450,83" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                                <Sequence sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_85">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -440,7 +456,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </uma:Office365ApplicationScope>
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484,53" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484,52" sap2010:WorkflowViewState.IdRef="CommentOut_8">
                             <ui:CommentOut.Body>
                               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="377.6,298.4" sap2010:WorkflowViewState.IdRef="Sequence_86">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -469,45 +485,45 @@
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence sap:VirtualizedContainerService.HintSize="1224,5026" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                        <Sequence sap:VirtualizedContainerService.HintSize="1224,6903" sap2010:WorkflowViewState.IdRef="Sequence_18">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NCheckState DisplayName="Check App State 'As of'" sap:VirtualizedContainerService.HintSize="1182,1283" sap2010:WorkflowViewState.IdRef="NCheckState_13" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Timeout="240" Version="V3">
+                          <uix:NCheckState DisplayName="Check App State 'As of'" sap:VirtualizedContainerService.HintSize="1182,2294" sap2010:WorkflowViewState.IdRef="NCheckState_13" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Timeout="240" Version="V3">
                             <uix:NCheckState.IfNotExists>
-                              <Sequence sap:VirtualizedContainerService.HintSize="878,1064" sap2010:WorkflowViewState.IdRef="Sequence_116">
+                              <Sequence sap:VirtualizedContainerService.HintSize="878,2077" sap2010:WorkflowViewState.IdRef="Sequence_116">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <Delay Duration="[TimeSpan.FromMilliseconds(2000)]" sap:VirtualizedContainerService.HintSize="816,91" sap2010:WorkflowViewState.IdRef="Delay_40" />
-                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="816,818" sap2010:WorkflowViewState.IdRef="Sequence_133">
+                                <Delay Duration="[TimeSpan.FromMilliseconds(2000)]" sap:VirtualizedContainerService.HintSize="816,90" sap2010:WorkflowViewState.IdRef="Delay_40" />
+                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="816,1832" sap2010:WorkflowViewState.IdRef="Sequence_133">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="754,53" sap2010:WorkflowViewState.IdRef="TryCatch_7">
+                                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="754,1072" sap2010:WorkflowViewState.IdRef="TryCatch_7">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <TryCatch.Try>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="450,756" sap2010:WorkflowViewState.IdRef="Sequence_134">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="450,844" sap2010:WorkflowViewState.IdRef="Sequence_134">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Delay Duration="[TimeSpan.FromMilliseconds(1000)]" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="Delay_46">
+                                        <Delay Duration="[TimeSpan.FromMilliseconds(1000)]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="Delay_46">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -515,7 +531,7 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </Delay>
-                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter a Receipt Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,219" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Text="[eac_Num]" Version="V3">
+                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter a Receipt Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Text="[eac_Num]" Version="V3">
                                           <uix:NTypeInto.Target>
                                             <uix:TargetAnchorable BrowserURL="https://egov.uscis.gov/" DesignTimeRectangle="355, 535, 209, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FriendlyName="'INPUT receipt_number'" FullSelectorArgument="&lt;webctrl tag='INPUT' class='usa-input inputReceiptNumber' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl id='receipt_number' tag='INPUT' type='text' class='usa-input inputReceiptNumber' aaname='Enter a Receipt Number' /&gt;" Guid="3fc5ad99-a1dd-42df-96e6-4887f9bb40df" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANUAAAAoCAYAAABpTL9EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANbSURBVHhe7Zbd0eMgDEW3yn3a1y3ha8JVpJI0kSpShdf8GZAE9tpKns6ZYSYJIAm4F/JrBQBXMBWAM7upfv/5S6PRbrRCZyoAuAamAnAGUwE4g6kAnMFUAM5gKgBnMBWAM5gKwBlMBeAMpgJwBlMBOHPRVK/18fOz/oza8lzfeeTO6zHua3g/FxHvsWUbE8c/9AgZZ3nqrK9Hk+dMXXLM+7kuTY7UlrVPJfaqrbXsidXacSKPXst7fS7NXGsthzHAi1umMrQ8JAp4WeLB2vOy+IQgkjmkUBO7cUTA9HtrxhS7FVKqp+aK30cLKoKUYo2mmJg+z6t5dR2KGLNdr5iTY9ZSs6Ga2vQFcBQDPPmSqcr4LABjohR5i+4rN/NmUhUv9Unh9kIL9QijRqFZBsnxtgtB1qfF22OtaT5HiD9gGLeLEeuWl06quWyLlfOodrjOV0wVDzALo/1c+U+TBqFlQUxfmIZDEZnirPGt+fPctrlnWCaMa52ZavBahlglt1nn8BKBu3zBVPlV2QcbcweCPsNc2AVZg2TQ3whWmyrP2dZSm/7btr/OZcyohrgH1p6mONWc4vvkpUq50mdl7ht7DnNumaoXVG2dMIzDUzdyHHPt1jxjqjhmED/1hSYF1ptfmyrvQZs7mrDEKXvUxjXmZOYvab/f/fRsoHZurKPkwVTf5uMvlSmWTnwbNw74yFTJNCdixxrqmmTcuegL7Qsx2CO59shA+AE13jBR+S0YKZup1o+pvs2HTdXfsLLVgz6IN3nJZqY6bahMjTWrex5PxlClWWIeCvyqIfp55h5N9hTu8VlTmbdyIgm+HursJYhjZ31GITJ+x0CUo1gBVZ8ZQ4tZGSLuiajL+i1yxlTGWYjarL099/LCFT5qqplIk5DaGPl1sA5/YMyAlSPNmd3CSaxdrskFENAizDGa3CqvMl5eo1XvSOCqLl173IP9u66r5N3NGes6cSnCJW6ZSv81Km0T1uHBWYefBSJj5T4LbapZbW2snH/vGxsqYAtfxjBqzfuwjzE2ZHr5BPIFNI4h6rBiiTrU6wduXDQVAIzAVADOYCoAZzAVgDOYCsAZTAXgDKYCcAZTATiDqQCcwVQAzmAqAGcwFYAzQ1PRaLTrrbCbCgB8wFQArqzrPz+Amlypc7dVAAAAAElFTkSuQmCC" InformativeScreenshot="7925fef7567aeae6acd3b07c76a4552f.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Case Status Online - Case Status Search' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
                                               <uix:TargetAnchorable.Anchors>
@@ -532,7 +548,7 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </uix:NTypeInto>
-                                        <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="388,53" sap2010:WorkflowViewState.IdRef="Delay_44">
+                                        <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="Delay_44">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -540,7 +556,7 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </Delay>
-                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Check Status'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Version="V3">
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Check Status'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Version="V3">
                                           <uix:NClick.Target>
                                             <uix:TargetAnchorable BrowserURL="https://egov.uscis.gov/" DesignTimeRectangle="355, 569, 127, 35" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FriendlyName="'Check Status'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' innertext='Check Status' visibleinnertext='Check Status' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' innertext='Check Status' visibleinnertext='Check Status' class='usa-button' aaname='Check Status' check:text='Check Status' /&gt;" Guid="a2188508-de80-4b4e-bd7c-5d6ed2381789" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIMAAAAnCAYAAAAsEPueAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANPSURBVHhe7Zs/axVREMX9HOLXSGkhBL+BjZWF2mnlBzCdgmgRUFAQQiCCEE0VsFFUULFIY5VGUqVQFFEeIUG4cnx7lrPD3H1/smuee+cHB97eO3d27sx5jyB4KgVBRZghqGmY4fHWx3Tu8v10evlmaMBavvrg76wttRlWn7x1D4aGq4eb76vpj6nNcPbSqnsgNFxh5kpthjPnV9wDoeEKM1dqM3jBoeFLCTMULiXMULiUMEPhUsIMhUsJMxQuJcxQuJQwQ+FSejPDtVvP0q/RYZV9zJudz40YPO9//Zku3FhrrHcl1rCxvePu54R4i5fj0eaHmWpHLM54eyclpRczYMhAG8jB7O59acQtmhlQE87gLNfurr9Oh0e/G2aetXbEIV5zLIKUzs3AxnkDsHuLZoa2gdlawwxTaJYmMXZv/3tVRXLP4teEwEwwle5j2Ap/fawZ+OzlgDgw/fXyhLqJ5tI6AfeYl/COiLfvsmv6LtC1mZTOzeBdMCdelBe0w/CGg8HqAGgEO3DkVDPw86TamA/kTAMhP4fqPbN2rvGZd4W8XukaakHNqB3PqAXPuZrmkdKLGfTCbUKcXpZrbCAu/e3HqLEPacP0sxUN8OLd7lRGoDg4pa1OPavSmHnM4PWnaykn/stgG6pr+i214B1eg1U0A8nFTRLr0Fq92jWWMMar1euVrnVVf5uUf/43Ay7KS3mxuobPbd8Mr8EqNhPvxJDafvYnyZ63teMZ5GK8WnXwbWsQ8wPNcVwpnZuBA0Dz7B6ahGZxT5vFGF2bZoC55kFaC4dh36dqex/WkGvaQUOoqy3G1s6Y3H0gr2fHkdK5GSAUDNQQ+i3VOHsxXWNzNIZ52FRvgGyyNSZiEMuzVnwfzuCs7jEnn5GTcTxn7wa0dpsDMVo7cgLGYF9r4Xty9c8jpRczQGy8Yi+BZ22Wt8YGKDYPm0jYTGsGCGeBrlkxRrHvZG6AXPoMUPPWy0/usHXAqJXQLKzf7gPd60JKb2YI/R9SwgyFSwkzFC4lzFC4lDBD4VLCDIVLCTMULiXMULiUMEPhUmozLF285waHhqvs/8K+s/bKPRAarjBzpTYD/r38yspT91BoeLp++3kaHRxV0x9TmyEIwgxBRUp/AMq5BCtH6aGdAAAAAElFTkSuQmCC" InformativeScreenshot="d298c7b18e92a994d722aae41166efef.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Case Status Online - Case Status Search' /&gt;" SearchSteps="Selector, Image" Version="V1" Visibility="Interactive">
                                               <uix:TargetAnchorable.Anchors>
@@ -551,10 +567,18 @@
                                             </uix:TargetAnchorable>
                                           </uix:NClick.Target>
                                         </uix:NClick>
+                                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="1" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(home)][u(hk)]" Version="V3">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </uix:NKeyboardShortcuts>
                                       </Sequence>
                                     </TryCatch.Try>
                                     <TryCatch.Catches>
-                                      <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="454,22" sap2010:WorkflowViewState.IdRef="Catch`1_8">
+                                      <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="454,21" sap2010:WorkflowViewState.IdRef="Catch`1_8">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -565,24 +589,24 @@
                                           <ActivityAction.Argument>
                                             <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                           </ActivityAction.Argument>
-                                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="550,1142" sap2010:WorkflowViewState.IdRef="TryCatch_8">
+                                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="550,1225" sap2010:WorkflowViewState.IdRef="TryCatch_8">
                                             <TryCatch.Try>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="512,909" sap2010:WorkflowViewState.IdRef="Sequence_136">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="512,997" sap2010:WorkflowViewState.IdRef="Sequence_136">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <Sequence sap:VirtualizedContainerService.HintSize="450,794" sap2010:WorkflowViewState.IdRef="Sequence_135">
+                                                <Sequence sap:VirtualizedContainerService.HintSize="450,882" sap2010:WorkflowViewState.IdRef="Sequence_135">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <Delay Duration="[TimeSpan.FromMilliseconds(2000)]" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="Delay_47" />
-                                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter a Receipt Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,219" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Text="[eac_Num]" Version="V3">
+                                                  <Delay Duration="[TimeSpan.FromMilliseconds(2000)]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="Delay_47" />
+                                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter a Receipt Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Text="[eac_Num]" Version="V3">
                                                     <uix:NTypeInto.Target>
                                                       <uix:TargetAnchorable BrowserURL="https://egov.uscis.gov/" DesignTimeRectangle="355, 535, 209, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FriendlyName="'INPUT receipt_number'" FullSelectorArgument="&lt;webctrl tag='INPUT' class='usa-input inputReceiptNumber' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl id='receipt_number' tag='INPUT' type='text' class='usa-input inputReceiptNumber' aaname='Enter a Receipt Number' /&gt;" Guid="3fc5ad99-a1dd-42df-96e6-4887f9bb40df" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANUAAAAoCAYAAABpTL9EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANbSURBVHhe7Zbd0eMgDEW3yn3a1y3ha8JVpJI0kSpShdf8GZAE9tpKns6ZYSYJIAm4F/JrBQBXMBWAM7upfv/5S6PRbrRCZyoAuAamAnAGUwE4g6kAnMFUAM5gKgBnMBWAM5gKwBlMBeAMpgJwBlMBOHPRVK/18fOz/oza8lzfeeTO6zHua3g/FxHvsWUbE8c/9AgZZ3nqrK9Hk+dMXXLM+7kuTY7UlrVPJfaqrbXsidXacSKPXst7fS7NXGsthzHAi1umMrQ8JAp4WeLB2vOy+IQgkjmkUBO7cUTA9HtrxhS7FVKqp+aK30cLKoKUYo2mmJg+z6t5dR2KGLNdr5iTY9ZSs6Ga2vQFcBQDPPmSqcr4LABjohR5i+4rN/NmUhUv9Unh9kIL9QijRqFZBsnxtgtB1qfF22OtaT5HiD9gGLeLEeuWl06quWyLlfOodrjOV0wVDzALo/1c+U+TBqFlQUxfmIZDEZnirPGt+fPctrlnWCaMa52ZavBahlglt1nn8BKBu3zBVPlV2QcbcweCPsNc2AVZg2TQ3whWmyrP2dZSm/7btr/OZcyohrgH1p6mONWc4vvkpUq50mdl7ht7DnNumaoXVG2dMIzDUzdyHHPt1jxjqjhmED/1hSYF1ptfmyrvQZs7mrDEKXvUxjXmZOYvab/f/fRsoHZurKPkwVTf5uMvlSmWTnwbNw74yFTJNCdixxrqmmTcuegL7Qsx2CO59shA+AE13jBR+S0YKZup1o+pvs2HTdXfsLLVgz6IN3nJZqY6bahMjTWrex5PxlClWWIeCvyqIfp55h5N9hTu8VlTmbdyIgm+HursJYhjZ31GITJ+x0CUo1gBVZ8ZQ4tZGSLuiajL+i1yxlTGWYjarL099/LCFT5qqplIk5DaGPl1sA5/YMyAlSPNmd3CSaxdrskFENAizDGa3CqvMl5eo1XvSOCqLl173IP9u66r5N3NGes6cSnCJW6ZSv81Km0T1uHBWYefBSJj5T4LbapZbW2snH/vGxsqYAtfxjBqzfuwjzE2ZHr5BPIFNI4h6rBiiTrU6wduXDQVAIzAVADOYCoAZzAVgDOYCsAZTAXgDKYCcAZTATiDqQCcwVQAzmAqAGcwFYAzQ1PRaLTrrbCbCgB8wFQArqzrPz+Amlypc7dVAAAAAElFTkSuQmCC" InformativeScreenshot="7925fef7567aeae6acd3b07c76a4552f.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Case Status Online - Case Status Search' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
                                                         <uix:TargetAnchorable.Anchors>
@@ -599,8 +623,8 @@
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
                                                   </uix:NTypeInto>
-                                                  <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="Delay_45" />
-                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Check Status'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Version="V3">
+                                                  <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="Delay_45" />
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Check Status'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Version="V3">
                                                     <uix:NClick.Target>
                                                       <uix:TargetAnchorable BrowserURL="https://egov.uscis.gov/" DesignTimeRectangle="355, 569, 127, 35" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FriendlyName="'Check Status'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' innertext='Check Status' visibleinnertext='Check Status' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' innertext='Check Status' visibleinnertext='Check Status' class='usa-button' aaname='Check Status' check:text='Check Status' /&gt;" Guid="a2188508-de80-4b4e-bd7c-5d6ed2381789" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIMAAAAnCAYAAAAsEPueAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANPSURBVHhe7Zs/axVREMX9HOLXSGkhBL+BjZWF2mnlBzCdgmgRUFAQQiCCEE0VsFFUULFIY5VGUqVQFFEeIUG4cnx7lrPD3H1/smuee+cHB97eO3d27sx5jyB4KgVBRZghqGmY4fHWx3Tu8v10evlmaMBavvrg76wttRlWn7x1D4aGq4eb76vpj6nNcPbSqnsgNFxh5kpthjPnV9wDoeEKM1dqM3jBoeFLCTMULiXMULiUMEPhUsIMhUsJMxQuJcxQuJQwQ+FSejPDtVvP0q/RYZV9zJudz40YPO9//Zku3FhrrHcl1rCxvePu54R4i5fj0eaHmWpHLM54eyclpRczYMhAG8jB7O59acQtmhlQE87gLNfurr9Oh0e/G2aetXbEIV5zLIKUzs3AxnkDsHuLZoa2gdlawwxTaJYmMXZv/3tVRXLP4teEwEwwle5j2Ap/fawZ+OzlgDgw/fXyhLqJ5tI6AfeYl/COiLfvsmv6LtC1mZTOzeBdMCdelBe0w/CGg8HqAGgEO3DkVDPw86TamA/kTAMhP4fqPbN2rvGZd4W8XukaakHNqB3PqAXPuZrmkdKLGfTCbUKcXpZrbCAu/e3HqLEPacP0sxUN8OLd7lRGoDg4pa1OPavSmHnM4PWnaykn/stgG6pr+i214B1eg1U0A8nFTRLr0Fq92jWWMMar1euVrnVVf5uUf/43Ay7KS3mxuobPbd8Mr8EqNhPvxJDafvYnyZ63teMZ5GK8WnXwbWsQ8wPNcVwpnZuBA0Dz7B6ahGZxT5vFGF2bZoC55kFaC4dh36dqex/WkGvaQUOoqy3G1s6Y3H0gr2fHkdK5GSAUDNQQ+i3VOHsxXWNzNIZ52FRvgGyyNSZiEMuzVnwfzuCs7jEnn5GTcTxn7wa0dpsDMVo7cgLGYF9r4Xty9c8jpRczQGy8Yi+BZ22Wt8YGKDYPm0jYTGsGCGeBrlkxRrHvZG6AXPoMUPPWy0/usHXAqJXQLKzf7gPd60JKb2YI/R9SwgyFSwkzFC4lzFC4lDBD4VLCDIVLCTMULiXMULiUMEPhUmozLF285waHhqvs/8K+s/bKPRAarjBzpTYD/r38yspT91BoeLp++3kaHRxV0x9TmyEIwgxBRUp/AMq5BCtH6aGdAAAAAElFTkSuQmCC" InformativeScreenshot="d298c7b18e92a994d722aae41166efef.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Case Status Online - Case Status Search' /&gt;" SearchSteps="Selector, Image" Version="V1" Visibility="Interactive">
                                                         <uix:TargetAnchorable.Anchors>
@@ -611,11 +635,19 @@
                                                       </uix:TargetAnchorable>
                                                     </uix:NClick.Target>
                                                   </uix:NClick>
+                                                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="1" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(home)][u(hk)]" Version="V3">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                  </uix:NKeyboardShortcuts>
                                                 </Sequence>
                                               </Sequence>
                                             </TryCatch.Try>
                                             <TryCatch.Catches>
-                                              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="516,22" sap2010:WorkflowViewState.IdRef="Catch`1_10">
+                                              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="516,21" sap2010:WorkflowViewState.IdRef="Catch`1_10">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -626,7 +658,7 @@
                                                   <ActivityAction.Argument>
                                                     <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                                   </ActivityAction.Argument>
-                                                  <Throw Exception="[New SystemException(&quot;Error occured during entering EAC number&quot;)]" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="Throw_4" />
+                                                  <Throw Exception="[New SystemException(&quot;Error occured during entering EAC number&quot;)]" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="Throw_4" />
                                                 </ActivityAction>
                                               </Catch>
                                             </TryCatch.Catches>
@@ -635,16 +667,16 @@
                                       </Catch>
                                     </TryCatch.Catches>
                                   </TryCatch>
-                                  <uix:NCheckState DisplayName="Check App State 'As of'" sap:VirtualizedContainerService.HintSize="754,610" sap2010:WorkflowViewState.IdRef="NCheckState_15" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Timeout="240" Version="V3">
+                                  <uix:NCheckState DisplayName="Check App State 'As of'" sap:VirtualizedContainerService.HintSize="754,605" sap2010:WorkflowViewState.IdRef="NCheckState_15" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" Timeout="240" Version="V3">
                                     <uix:NCheckState.IfNotExists>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="450,391" sap2010:WorkflowViewState.IdRef="Sequence_140">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="450,388" sap2010:WorkflowViewState.IdRef="Sequence_140">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,145" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="[UiPath.Core.Activities.LogLevel.Trace]" Message="[&quot;status not found in  https://egov.uscis.gov/&quot;]" />
-                                        <Throw Exception="[new SystemException(&quot;status not found in  https://egov.uscis.gov/&quot;)]" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="Throw_8" />
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="[UiPath.Core.Activities.LogLevel.Trace]" Message="[&quot;status not found in  https://egov.uscis.gov/&quot;]" />
+                                        <Throw Exception="[new SystemException(&quot;status not found in  https://egov.uscis.gov/&quot;)]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="Throw_8" />
                                       </Sequence>
                                     </uix:NCheckState.IfNotExists>
                                     <uix:NCheckState.Target>
@@ -682,15 +714,15 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </uix:NCheckState>
-                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1182,83" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1182,951" sap2010:WorkflowViewState.IdRef="Sequence_19">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="410,91" sap2010:WorkflowViewState.IdRef="Delay_34" />
-                            <uix:NGetText DisplayName="Get Text 'Case Status Online'" sap:VirtualizedContainerService.HintSize="410,158" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" ScrapingMethod="TextAttribute" TextString="[eac_Status]" Version="V3">
+                            <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="410,90" sap2010:WorkflowViewState.IdRef="Delay_34" />
+                            <uix:NGetText DisplayName="Get Text 'Case Status Online'" sap:VirtualizedContainerService.HintSize="410,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="e030bea9-da2c-4c9f-84fe-6744ea8f27c3" ScrapingMethod="TextAttribute" TextString="[eac_Status]" Version="V3">
                               <uix:NGetText.Target>
                                 <uix:TargetAnchorable BrowserURL="https://egov.uscis.gov/" DesignTimeRectangle="355, 252, 826, 27" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FriendlyName="'Case Is'" FullSelectorArgument="&lt;webctrl id='landing-page-header' tag='H2' aaname='*' innertext='*' parentclass='caseStatusSection' /&gt;" FuzzySelectorArgument="&lt;webctrl id='landing-page-header' tag='H2' type='' class='' /&gt;" Guid="9b162770-abb4-4651-a75d-a49c2dfe4704" ImageBase64="" InformativeScreenshot="9526f77ea24ae0b1ace5dff76bb1d35e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Case Status Online - Case Status Search' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
@@ -701,7 +733,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NGetText.Target>
                             </uix:NGetText>
-                            <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="410,91" sap2010:WorkflowViewState.IdRef="Delay_9" />
+                            <Delay Duration="[TimeSpan.FromMilliseconds(500)]" sap:VirtualizedContainerService.HintSize="410,90" sap2010:WorkflowViewState.IdRef="Delay_9" />
                             <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[not comments.Contains(eac_Num)]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="410,383" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_6" MaxIterations="3">
                               <ui:InterruptibleDoWhile.Body>
                                 <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_94">
@@ -725,7 +757,7 @@
                               </ui:InterruptibleDoWhile.Body>
                             </ui:InterruptibleDoWhile>
                           </Sequence>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1182,145" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Extracted status and comments from https://egov.uscis.gov/casestatus&quot;]" />
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1182,143" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Extracted status and comments from https://egov.uscis.gov/casestatus&quot;]" />
                           <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Manage Immigration | Compunnel" sap:VirtualizedContainerService.HintSize="1182,3307" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="66b09948-61c7-4e25-8431-6a3895789298" Version="V2">
                             <uix:NApplicationCard.Body>
                               <ActivityAction x:TypeArguments="x:Object">
